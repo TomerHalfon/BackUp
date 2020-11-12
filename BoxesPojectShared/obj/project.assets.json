@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+      "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj",
       "projectName": "BoxesPojectShared",
-      "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+      "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj",
       "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-      "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\obj\\",
+      "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

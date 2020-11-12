@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj": {}
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj": {}
   },
   "projects": {
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj": {
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj",
+        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
         "projectName": "DataStructures",
-        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj",
+        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
         "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\obj\\",
+        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

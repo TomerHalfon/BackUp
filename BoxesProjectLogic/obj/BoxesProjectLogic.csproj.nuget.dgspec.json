@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\BoxesProjectLogic.csproj": {}
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\BoxesProjectLogic.csproj": {}
   },
   "projects": {
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj": {
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj",
         "projectName": "BoxesPojectShared",
-        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj",
         "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\obj\\",
+        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,16 +63,16 @@
         }
       }
     },
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectData\\BoxesProjectData.csproj": {
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectData\\BoxesProjectData.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectData\\BoxesProjectData.csproj",
+        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectData\\BoxesProjectData.csproj",
         "projectName": "BoxesProjectData",
-        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectData\\BoxesProjectData.csproj",
+        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectData\\BoxesProjectData.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj": {
-                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj"
+              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj": {
+                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         "net472": {}
       }
     },
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\BoxesProjectLogic.csproj": {
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\BoxesProjectLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
+        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
         "projectName": "BoxesProjectLogic",
-        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
+        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
         "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\obj\\",
+        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -109,14 +109,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj": {
-                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj"
+              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj": {
+                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj"
               },
-              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectData\\BoxesProjectData.csproj": {
-                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectData\\BoxesProjectData.csproj"
+              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectData\\BoxesProjectData.csproj": {
+                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectData\\BoxesProjectData.csproj"
               },
-              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj": {
-                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj"
+              "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj": {
+                "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj": {
+    "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj",
+        "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
         "projectName": "DataStructures",
-        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\DataStructures.csproj",
+        "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
         "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\DataStructures\\obj\\",
+        "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

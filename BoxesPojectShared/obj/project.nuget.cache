@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aUmIXKKf+ooAfZM14L210GUJ7LP3c1JOp2h55pVojFKdW33EXrvz93SP1npWbmWcdmZo2ixPOKjHwSP6qBEb9w==",
+  "dgSpecHash": "W96uNTo+iAlzbUGM1s0nvfFqsvaVRK8IqDjX69rFVHuxh5gJ/HHIh1taK6qMFCUghi1/385vbbli/mU6bufXag==",
   "success": true,
-  "projectFilePath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+  "projectFilePath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesPojectShared\\BoxesPojectShared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tomer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tomer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

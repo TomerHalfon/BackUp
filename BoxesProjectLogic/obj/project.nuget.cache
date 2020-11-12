@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1oQzXyojZfN/I/+0A3XHzAChL020vUOTNkKwpI6uhORa8h6WVnMEYCMajYgsfuxBpx37DLNpaB3kcx8iE70QQ==",
+  "dgSpecHash": "yQTdid7bBC8a9Slc0l3kPs8yFXRiNPf4JNQ5KDxzY+cS5XqEU0K3KF3DW8VtE6mAgKiViZNIrEyGtehc1UO2GQ==",
   "success": true,
-  "projectFilePath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
+  "projectFilePath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\BoxesProjectLogic\\BoxesProjectLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tomer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tomer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
