@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aUmIXKKf+ooAfZM14L210GUJ7LP3c1JOp2h55pVojFKdW33EXrvz93SP1npWbmWcdmZo2ixPOKjHwSP6qBEb9w==",
+  "success": true,
+  "projectFilePath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BoxesPojectShared\\BoxesPojectShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tomer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tomer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

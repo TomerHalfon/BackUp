@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="BoxesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="BoxesModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Boxes" EntityType="BoxesModel.Box" />
+  </EntityContainer>
+  <EntityType Name="Box">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="X" Type="Double" Nullable="false" />
+    <Property Name="Y" Type="Double" Nullable="false" />
+    <Property Name="LastPurchaseDate" Type="DateTime" Nullable="false" />
+    <Property Name="Count" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

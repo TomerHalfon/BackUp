@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BoxesModelStoreContainer" CdmEntityContainer="BoxesModelContainer">
+    <EntitySetMapping Name="Boxes">
+      <EntityTypeMapping TypeName="IsTypeOf(BoxesModel.Box)">
+        <MappingFragment StoreEntitySet="Boxes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="X" ColumnName="X" />
+          <ScalarProperty Name="Y" ColumnName="Y" />
+          <ScalarProperty Name="LastPurchaseDate" ColumnName="LastPurchaseDate" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

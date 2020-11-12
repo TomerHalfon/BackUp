@@ -1,0 +1,9 @@
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.deps.json
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.dll
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.pdb
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.AssemblyInfoInputs.cache
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.AssemblyInfo.cs
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.csproj.CoreCompileInputs.cache
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.dll
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.pdb
+D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.csprojAssemblyReference.cache

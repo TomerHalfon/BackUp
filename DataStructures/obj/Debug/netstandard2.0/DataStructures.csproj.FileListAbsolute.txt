@@ -1,0 +1,9 @@
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\bin\Debug\netstandard2.0\DataStructures.deps.json
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\bin\Debug\netstandard2.0\DataStructures.dll
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\bin\Debug\netstandard2.0\DataStructures.pdb
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.csprojAssemblyReference.cache
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.AssemblyInfoInputs.cache
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.AssemblyInfo.cs
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.csproj.CoreCompileInputs.cache
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.dll
+D:\Sela\FinalProjects\BoxesFinalProject\DataStructures\obj\Debug\netstandard2.0\DataStructures.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BoxesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BoxesModelStoreContainer">
+    <EntitySet Name="Boxes" EntityType="BoxesModel.Store.Boxes" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Boxes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="X" Type="float" Nullable="false" />
+    <Property Name="Y" Type="float" Nullable="false" />
+    <Property Name="LastPurchaseDate" Type="datetime" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>
