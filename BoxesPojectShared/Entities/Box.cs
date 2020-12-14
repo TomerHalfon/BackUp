@@ -10,7 +10,7 @@ namespace BoxesPojectShared.Entities
         public double X { get; set; }
         public double Y { get; set; }
         public int Count { get; set; }
-        public DateTime? TimeLastPurchase { get; set; }
+        public DateTime TimeLastPurchase { get; set; }
 
     }
 }

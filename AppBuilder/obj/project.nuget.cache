@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WaWjv2PxDi5EyAyfR4Gi+2x+v1xS9RF+lCmBDXe2iQOaDtFWkslmEuS5r4yU7V7FsfIkuUVJh5DEan6t9h5sWQ==",
+  "success": true,
+  "projectFilePath": "D:\\BackUp\\BackUp\\AppBuilder\\AppBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tomer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tomer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

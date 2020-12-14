@@ -7,3 +7,12 @@ D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.dll
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.pdb
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.csprojAssemblyReference.cache
+D:\BackUp\BackUp\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.deps.json
+D:\BackUp\BackUp\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.dll
+D:\BackUp\BackUp\BoxesPojectShared\bin\Debug\netstandard2.0\BoxesPojectShared.pdb
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.AssemblyInfoInputs.cache
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.AssemblyInfo.cs
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.csproj.CoreCompileInputs.cache
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.dll
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.pdb
+D:\BackUp\BackUp\BoxesPojectShared\obj\Debug\netstandard2.0\BoxesPojectShared.csprojAssemblyReference.cache

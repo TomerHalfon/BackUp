@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStructures.Abstractions;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace DataStructures
     /// Binary Search Tree
     /// </summary>
     /// <typeparam name="T">Data type to store</typeparam>
-    public class BinarySearchTree<T> where T : IComparable
+    public class BinarySearchTree<T> : IBinarySearchTree<T> where T : IComparable
     {
         /// <summary>
         /// The Node of the tree
@@ -25,11 +26,7 @@ namespace DataStructures
             /// The Right Child of this <c>Node</c>
             /// </summary>
             public Node Right { get; set; }
-            /// <summary>
-            /// The parent of this <c>Node</c>
-            /// null if root
-            /// </summary>
-            public Node Parent { get; set; }
+
             /// <summary>
             /// The <c>T</c> data
             /// </summary>
@@ -60,7 +57,7 @@ namespace DataStructures
                 //if no node create it 
                 if (node is null)
                 {
-                    node = new Node(data) { Parent = parent };
+                    node = new Node(data);
                     return node;
                 }
                 //if smaller than the node continue left
@@ -81,50 +78,54 @@ namespace DataStructures
         /// Delete data from tree
         /// </summary>
         /// <param name="data"></param>
-        public void Delete(T data)
+        public void Delete(T data, out T deletedData)
         {
+            var foundData = default(T);
             Node deleteRec(Node node)
             {
-                /* Base Case: If the tree is empty */
-                if (node == null) return node;
-
-                /* Otherwise, recur down the tree */
+                //Recursive break point
+                if (node == null) 
+                    return node;
+                //Finde node to be deleted
                 if (node.Data.CompareTo(data) > 0)
                     node.Left = deleteRec(node.Left);
+
                 else if (node.Data.CompareTo(data) < 0)
                     node.Right = deleteRec(node.Right);
 
-                // if key is same as root's key, then This is the node  
-                // to be deleted  
                 else
                 {
-                    // node with only one child or no child  
+                    //Found the node
+                    //save data
+                    foundData = node.Data;
+
+                    //Single child
                     if (node.Left == null)
                         return node.Right;
                     else if (node.Right == null)
                         return node.Left;
 
-                    // node with two children: Get the 
-                    // inorder successor (smallest  
-                    // in the right subtree)  
-                    node.Data = minValue(node.Right);
+                    //Two children
+                    //Find the InorderSuccessor to the right
+                    node.Data = FindInorderSuccessor(node.Right);
 
-                    // Delete the inorder succe ssor  
+                    //remove it to avoid duplication
                     node.Right = deleteRec(node.Right);
                 }
                 return node;
             }
-            T minValue(Node node)
+            T FindInorderSuccessor(Node node)
             {
-                T minv = node.Data;
+                T min = node.Data;
                 while (node.Left != null)
                 {
-                    minv = node.Left.Data;
+                    min = node.Left.Data;
                     node = node.Left;
                 }
-                return minv;
+                return min;
             }
             Root = deleteRec(Root);
+            deletedData = foundData;
         }
         /// <summary>
         /// Search a search term in the tree, data is set to default value if no such node and return false
@@ -159,27 +160,28 @@ namespace DataStructures
         /// </summary>
         /// <param name="searchTerm"></param>
         /// <param name="data"></param>
-        public void FindAndUpdate(T searchTerm, out T data)
+        public bool FindAndUpdate(T searchTerm, out T data)
         {
+            bool isNew = false;
             //Recursive insertion
-            Node InnerFindAndUpdate(Node node, out T res, Node parent = null)
+            Node InnerFindAndUpdate(Node node, out T res)
             {
                 //if no node create it 
                 if (node is null)
                 {
-                    node = new Node(searchTerm) { Parent = parent };
+                    node = new Node(searchTerm);
                     res = node.Data;
                     return node;
                 }
                 //if smaller than the node continue left
                 else if (node.Data.CompareTo(searchTerm) > 0)
                 {
-                    node.Left = InnerFindAndUpdate(node.Left, out res, node);
+                    node.Left = InnerFindAndUpdate(node.Left, out res);
                 }
                 //if grater than the node continue right
                 else if (node.Data.CompareTo(searchTerm) < 0)
                 {
-                    node.Right = InnerFindAndUpdate(node.Right, out res, node);
+                    node.Right = InnerFindAndUpdate(node.Right, out res);
                 }
                 //if equls
                 else
@@ -187,11 +189,14 @@ namespace DataStructures
                     //we dont want to make any changes to the tree in this case
                     //because here the node's data equals to the search term
                     res = node.Data;
+                    isNew = true;
                     return node;
                 }
                 return node;
             }
+
             Root = InnerFindAndUpdate(Root, out data);
+            return isNew;
         }
         /// <summary>
         /// Find Data with Exect metch, if no such data returns the parent Node's data
@@ -251,10 +256,10 @@ namespace DataStructures
             while (tmpNode != null)
             {
                 //if found exact
-                if(tmpNode.Data.CompareTo(searchTerm) == 0) return tmpNode.Data;
-                
+                if (tmpNode.Data.CompareTo(searchTerm) == 0) return tmpNode.Data;
+
                 //if smaller than data
-                else if(tmpNode.Data.CompareTo(searchTerm) > 0)
+                else if (tmpNode.Data.CompareTo(searchTerm) > 0)
                 {
                     res = tmpNode.Data;
                     tmpNode = tmpNode.Left;
@@ -264,7 +269,6 @@ namespace DataStructures
             }
             //if null return the res
             return res;
-
         }
     }
 }

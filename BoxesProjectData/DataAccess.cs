@@ -13,11 +13,11 @@ namespace BoxesProjectData
     /// </summary>
     public class DataAccess : IDisposable
     {
-        BoxesDB Db { get; }
+        BoxesDBContext Db { get; }
 
         public DataAccess()
         {
-            Db = new BoxesDB();
+            Db = new BoxesDBContext();
         }
         
         public IEnumerable<Box> GetAllData() => Db.Boxes.AsEnumerable();

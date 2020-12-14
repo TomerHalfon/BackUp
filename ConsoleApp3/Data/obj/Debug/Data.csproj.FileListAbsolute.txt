@@ -1,6 +1,0 @@
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\bin\Debug\Data.dll
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\bin\Debug\Data.pdb
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\obj\Debug\Data.csprojAssemblyReference.cache
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\obj\Debug\Data.dll
-C:\Users\Tomer\source\repos\ConsoleApp3\Data\obj\Debug\Data.pdb

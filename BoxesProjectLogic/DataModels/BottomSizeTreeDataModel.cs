@@ -8,16 +8,18 @@ namespace BoxesProjectLogic.DataModels
     /// <summary>
     /// The data model to be used in the main bts based on the x 
     /// </summary>
-   class BottomSizeTreeDataModel : IComparable
+    public class BottomSizeTreeDataModel : IComparable
     {
+
         /// <summary>
         /// The Width and Length of the box
         /// </summary>
-        public double X { get; set; }
+        internal double X { get; set; }
+
         /// <summary>
         /// The inner <c>BinarySearchTree</c> containing <c>HeightSizeTreeDataModel</c> data model
         /// </summary>
-        public BinarySearchTree<HeightSizeTreeDataModel> InnerTree { get; set; }
+        internal BinarySearchTree<HeightSizeTreeDataModel> InnerTree { get; set; }
 
         #region Constructors
 
@@ -36,6 +38,8 @@ namespace BoxesProjectLogic.DataModels
         } 
         #endregion
 
+
+        //The Comparison
         public int CompareTo(object obj)
         {
             if (obj is BottomSizeTreeDataModel bottomSizeTreeData)

@@ -181,19 +181,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Tomer\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
+      "projectUniqueName": "D:\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
       "projectName": "DataStructures",
-      "projectPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
+      "projectPath": "D:\\BackUp\\BackUp\\DataStructures\\DataStructures.csproj",
       "packagesPath": "C:\\Users\\Tomer\\.nuget\\packages\\",
-      "outputPath": "D:\\Sela\\FinalProjects\\BoxesFinalProject\\BackUp\\BackUp\\DataStructures\\obj\\",
+      "outputPath": "D:\\BackUp\\BackUp\\DataStructures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Tomer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,6 +209,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -220,6 +221,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -238,7 +240,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

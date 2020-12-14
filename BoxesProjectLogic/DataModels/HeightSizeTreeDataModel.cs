@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStructures;
+using System;
 using System.Configuration;
 
 namespace BoxesProjectLogic.DataModels
@@ -6,52 +7,66 @@ namespace BoxesProjectLogic.DataModels
     /// <summary>
     /// The data model to be used in the inner bts inside the x node
     /// </summary>
-     class HeightSizeTreeDataModel : IComparable
+   public class HeightSizeTreeDataModel : IComparable
     {
-        /// <summary>
-        /// default max count
-        /// </summary>
-        const int DEFAULT_MAX_COUNT = 10000;
+        
+
         /// <summary>
         /// The Max Count of an item
         /// </summary>
-        public int MaxCount => DEFAULT_MAX_COUNT;
+        internal static int MaxCount { get; set; }
+
 
         /// <summary>
         /// The Height of the Box
         /// </summary>
         public double Y { get; set; }
-        private int _count;
+
+        /// <summary>
+        /// The Box ID
+        /// </summary>
+        public int Id { get; set; }
+
         /// <summary>
         /// The Count of the boxes for this size
         /// </summary>
         public int Count
         {
-            get { return _count; }
-            set
-            { 
+            get => _count;
+            set =>
                 //keep below max
-                _count = Math.Min(value, MaxCount); 
-            }
+                _count = Math.Min(value, MaxCount);
         }
+
+        private int _count;
+
+        /// <summary>
+        /// A reference to the Date node
+        /// </summary>
+        public Linked_List<TimeListDataModel>.Node DateNode { get; set; }
+
         #region Constructors
         /// <summary>
         /// For Dummy Data
         /// </summary>
-        public HeightSizeTreeDataModel()
+        /// <param name="y"></param>
+        public HeightSizeTreeDataModel(double y)
         {
+            Y = y;
         }
+
         /// <summary>
         /// Main Constructor
         /// </summary>
         /// <param name="y"></param>
         /// <param name="count"></param>
-        public HeightSizeTreeDataModel(double y, int count)
+        public HeightSizeTreeDataModel(double y, int count) : this(y)
         {
-            Y = y;
             Count = count;
         }
+
         #endregion
+
         public int CompareTo(object obj)
         {
             if (obj is HeightSizeTreeDataModel heightSizeTreeData)

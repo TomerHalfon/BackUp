@@ -1,4 +1,6 @@
-﻿using BoxesProjectLogic;
+﻿using BoxesPojectShared.Interfaces;
+using BoxesProjectLogic;
+using ConsoleUI.Implementations;
 using DataStructures;
 using ExtentionsByTomer.ConsoleUI;
 using System;
@@ -11,17 +13,38 @@ namespace ConsoleTesting
 {
     class Program
     {
+        static List<BoxesPojectShared.Entities.Box> TestData => new List<BoxesPojectShared.Entities.Box> {
+            new BoxesPojectShared.Entities.Box { X = 2, Y = 2, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 2, Y = 1, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 2, Y = 4, Count = 2, TimeLastPurchase = DateTime.Now.Subtract(TimeSpan.FromDays(1)) },
+            new BoxesPojectShared.Entities.Box { X = 1, Y = 2, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 1, Y = 3, Count = 2, TimeLastPurchase = DateTime.Now.Subtract(TimeSpan.FromDays(3)) },
+            new BoxesPojectShared.Entities.Box { X = 1, Y = 4, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 66, Y = 32, Count = 2, TimeLastPurchase = DateTime.Now.Subtract(TimeSpan.FromDays(2)) },
+            new BoxesPojectShared.Entities.Box { X = 66, Y = 12, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 44, Y = 4, Count = 2},
+            new BoxesPojectShared.Entities.Box { X = 44, Y = 2, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 44, Y = 44, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 2, Y = 22, Count = 2, TimeLastPurchase = DateTime.Now.Subtract(TimeSpan.FromDays(10)) },
+            new BoxesPojectShared.Entities.Box { X = 76, Y = 99, Count = 2 },
+            new BoxesPojectShared.Entities.Box { X = 22, Y = 2, Count = 2, TimeLastPurchase = DateTime.Now.Subtract(TimeSpan.FromDays(15)) },
+        };
+
         enum Actions
         {
             AddToStock = 1,
+            ShowBoxData,
             BuyExactBox,
-            FindPresent,
+            BuyBoxForPresent,
+            BuyBoxesForPresent,
             PrintStock,
             Clear
         }
-        static Manager mng = new Manager();
+        static Manager mng = new Manager(new ConsoleLogger(), new UserInteractions());
         static void Main(string[] args)
         {
+            LoadTestData();
+            ConfigureManager();
             while (true)
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -48,8 +71,14 @@ namespace ConsoleTesting
                         var success = BuyExactBox("Box X => ".Get<double>(), "Box Y => ".Get<double>(), "Count => ".Get<int>());
                         Console.WriteLine($"Transaction => Success Status => {success}");
                         break;
-                    case Actions.FindPresent:
-                       FindPreasent("Box X => ".Get<double>(), "Box Y => ".Get<double>());
+                    case Actions.BuyBoxForPresent:
+                        BuyBoxForPresent("Box X => ".Get<double>(), "Box Y => ".Get<double>());
+                        break;
+                    case Actions.BuyBoxesForPresent:
+                        BuyBoxesForPresent("Box X => ".Get<double>(), "Box Y => ".Get<double>(), "Count => ".Get<int>());
+                        break;
+                    case Actions.ShowBoxData:
+                        GetBox("Box X => ".Get<double>(), "Box Y => ".Get<double>());
                         break;
                     default:
                         break;
@@ -58,19 +87,41 @@ namespace ConsoleTesting
             }
         }
 
-        private static void FindPreasent(double x, double y)
+        private static void ConfigureManager()
         {
-            var res = mng.FindPreasent(x, y);
-            if(res is null)
-            {
-                Console.WriteLine("No Present found");
-            }
-            else
-            {
-                Console.WriteLine($"Found Present!\nX => {res.X}, Y => {res.Y}, In Stock => {res.Count}");
-            }
+            //IConfiguration config;
+            //config.SetMax
+
+            //mng = new Manager(config);
         }
 
+        private static void LoadTestData()
+        {
+            TestData.ForEach(box => mng.AddToStock(box.X, box.Y, box.Count, box.TimeLastPurchase));
+        }
+
+        private static void GetBox(double x, double y)
+        {
+            //try to get a box
+            var box = mng.GetBox(x, y);
+            //if no box returned
+            if (box is null) Console.WriteLine($"No match for size X => {x}, Y => {y}");
+            //if box was returned
+            else Console.WriteLine($"Found match for size X => {box.X}, Y => {box.Y} Count => {box.Count}, Last Bought at => {box.TimeLastPurchase}");
+        }
+
+        private static void BuyBoxForPresent(double x, double y)
+        {
+            var res = mng.BuyBoxForPresent(x, y);
+            if (res != null)
+            {
+                Console.WriteLine($"Bought Present!\nX => {res.X}, Y => {res.Y}, Now In Stock => {res.Count}");
+            }
+        }
+        private static void BuyBoxesForPresent(double x, double y, int count)
+        {
+            mng.BuyMultipleBoxesForPresent(x, y, count);
+        }
         private static bool BuyExactBox(double x, double y, int count)
         {
             return mng.BuyExactBoxSize(x, y, count);

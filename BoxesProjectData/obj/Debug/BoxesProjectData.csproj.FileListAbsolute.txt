@@ -12,3 +12,17 @@ D:\Sela\FinalProjects\BoxesFinalProject\BoxesProjectData\obj\Debug\BoxesProjectD
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesProjectData\obj\Debug\BoxesProjectData.pdb
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesProjectData\bin\Debug\BoxesPojectShared.dll
 D:\Sela\FinalProjects\BoxesFinalProject\BoxesProjectData\bin\Debug\BoxesPojectShared.pdb
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\BoxesProjectData.dll
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\BoxesProjectData.pdb
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\BoxesPojectShared.dll
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\EntityFramework.dll
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\EntityFramework.SqlServer.dll
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\BoxesPojectShared.pdb
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\EntityFramework.xml
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\EntityFramework.SqlServer.xml
+D:\BackUp\BackUp\BoxesProjectData\obj\Debug\BoxesProjectData.csprojAssemblyReference.cache
+D:\BackUp\BackUp\BoxesProjectData\obj\Debug\BoxesProjectData.csproj.CoreCompileInputs.cache
+D:\BackUp\BackUp\BoxesProjectData\obj\Debug\BoxesProjectData.csproj.CopyComplete
+D:\BackUp\BackUp\BoxesProjectData\obj\Debug\BoxesProjectData.dll
+D:\BackUp\BackUp\BoxesProjectData\obj\Debug\BoxesProjectData.pdb
+D:\BackUp\BackUp\BoxesProjectData\bin\Debug\BoxesProjectData.dll.config

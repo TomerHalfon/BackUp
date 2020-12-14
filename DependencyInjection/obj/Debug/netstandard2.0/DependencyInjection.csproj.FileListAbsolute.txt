@@ -1,0 +1,12 @@
+D:\BackUp\BackUp\DependencyInjection\bin\Debug\netstandard2.0\DependencyInjection.deps.json
+D:\BackUp\BackUp\DependencyInjection\bin\Debug\netstandard2.0\DependencyInjection.dll
+D:\BackUp\BackUp\DependencyInjection\bin\Debug\netstandard2.0\DependencyInjection.pdb
+D:\BackUp\BackUp\DependencyInjection\bin\Debug\netstandard2.0\BoxesPojectShared.dll
+D:\BackUp\BackUp\DependencyInjection\bin\Debug\netstandard2.0\BoxesPojectShared.pdb
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.csprojAssemblyReference.cache
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.AssemblyInfoInputs.cache
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.AssemblyInfo.cs
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.csproj.CoreCompileInputs.cache
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.csproj.CopyComplete
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.dll
+D:\BackUp\BackUp\DependencyInjection\obj\Debug\netstandard2.0\DependencyInjection.pdb

@@ -7,7 +7,7 @@ namespace BoxesProjectLogic.DataModels
     /// <summary>
     /// A data model that compares by the last time a customer perchuesd this size
     /// </summary>
-    class TimeListDataModel : IComparable
+   public class TimeListDataModel : IComparable
     {
         /// <summary>
         /// The bottom of the box
@@ -25,7 +25,8 @@ namespace BoxesProjectLogic.DataModels
         {
             if (obj is TimeListDataModel comp)
             {
-                return TimeLastPurchase.CompareTo(comp.TimeLastPurchase);
+                var res = TimeLastPurchase.Date.CompareTo(comp.TimeLastPurchase.Date);
+                return res == 0 ? TimeLastPurchase.CompareTo(comp.TimeLastPurchase) : res;
             }
             throw new ArgumentException($"Invalid obj");
         }
